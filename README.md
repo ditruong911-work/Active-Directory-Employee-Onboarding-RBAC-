@@ -26,5 +26,6 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Designed department-based OU Structure
+* Implemented RBAC with security groups mapped to each department
+* Provisioned user accounts with consistent naming conventions and attribute standards
