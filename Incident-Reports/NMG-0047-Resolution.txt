@@ -1,21 +1,20 @@
 
-1. Jane's user identity is in the Operations OU 
-2. I found that Jane Cooper is in the Operations OU, but she is supposed to be in the HR OU because she is a HR Payroll Specialist.
-3. Jane Cooper is currently a member of the Operations-Users. She should be a member of the HR-Users.
+1. Identified that Jane Cooper's user identity was provisioned within the Operations OU.
+2. Determined that Jane's OU assignment did not align with her designated role as an HR Payroll Specialist.
+3. Identifies incorrect security group membership. Jane was assigned to Operations-Users instead of HR-Users.
 
-The reason this occured is because Jane was placed in the incorrect OU which led to her being granted the wrong scope of access.
-This is why the policies weren't applied to her properly.  
+I determined that the configuration discrepancy resulted in inappropriate access permissions and inconsistent policy applications. 
 
 
 Ticket number: NMG-007
 Affected Users: Jane Cooper (jcooper@NMG.com)
-Issue Reported: Unable to acces HR shared resources. Desktop Policies and mapped drives differ from teammates.
+Issue Reported: User reported an inability to access HR shared resources. Desktop policies and mapped network drives were inconsistent with those of other HR department employees.
 
-Root Cause: This issue occured because Jane Cooper was placed inside wrong OU and Security Groups! This led to her being granted the wrong scope of access.
+Root Cause: Investigation revealed that the user's Active Directory account was assigned to an incorrect Organizational Unit and security group, resulting in improper access permissions and Group Policy application
 
-Fix Applied: To fix this issue I simply moved Jane Copper into the correct OU for HR. I also chaged her security group to HR-users.
+Fix Applied: I relocated the user account from the Operations OU to the HR OU and corrected security group memberships from Operations-Users to HR-Users. This aligned the user's account configuration with departmental access requirements.
 
-Verification: I confirmed the issue was resloved by reviewing the OU and Security Group Memebers List and taking screenshots.
+Verification: Validated the updated Organizational Unit assignment and security group membership within Active directory. Captured screenshots to document the configuration changes.
 
 Date Resloved: Nov. 22, 2026
 
