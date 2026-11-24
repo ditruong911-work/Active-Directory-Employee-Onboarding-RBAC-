@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* In this project I am working with a fictional company called Northstar Medical Group. They are a big organization with over 200+ employees that has been delegating their IT Infrastructure to a third-party MSP. It started out good but became disorganized with no RBAC policy in place. Users were being assigned access ad-hoc and there were no audit trails which resulted in HIPPA risks. 
+* NorthStar Medical Group (NMG) is a fictional healthcare organization with over 200 employees that outsourced its IT Infrastructure to a third-party Managed Service Provider (MSP). Over time, inconsistent user provisioning, a lack of role-based access control (RBAC), and limited audit trials created security vulnerabilities and potential HIPPA compliance risks. 
 
 ## Solution Overview
-* The solution was to take ownership of Northstar's Identity Infrastructure by building a basic employee onboarding pipeline in Active Directory. I set up the RBAC matrix to ensure users were given access ONLY according to their role. I also simulated a mock ticket where a user was provisioned with the incorrect level of access.  
+* To address these challenges, I developed an employee onboarding process using Active Directory and implemented an RBAC matrix to ensure users received appropriate access based on their job responsibilities. I also simulated a help desk incident involving incorrect access permissions, performed root cause analysis, implemented corrective actions, and documented the resolution.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
