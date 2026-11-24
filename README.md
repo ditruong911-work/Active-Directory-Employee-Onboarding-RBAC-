@@ -29,3 +29,5 @@
 * Designed department-based OU Structure
 * Implemented RBAC with security groups mapped to each department
 * Provisioned user accounts with consistent naming conventions and attribute standards
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis
