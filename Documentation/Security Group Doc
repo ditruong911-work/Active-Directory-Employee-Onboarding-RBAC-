@@ -1,11 +1,21 @@
 Domain Name: NMG.com
-OUs created: Finance, HR, IT, Operations
+Organizational Units (OUs) created: Finance, HR, IT, Operations
 Security Groups created: Finance-Users, HR-Users, IT-Users, Operations-Users
 
-Purpose of each OU:
-Fianace - This department represents the financial auditors, accountants, and legal team.
-HR- This department represents the people operations and enablement team.
-IT- This department represents the helpdesk and security team.
-Operations- This department represents leadership and marketing team.
+Departmental OU Structure
+Fianace - Supports financial auditors, accountants, and legal personnel.
+HR- Supports human resources, people operations, and employee enablement.
+IT- Supports help desk operations and information security personnel.
+Operations- Supports organizational leadership and marketing personnel.
+
+Security Group Configuration
+Departmental security groups were configured to support role-based access control (RBAC), streamline user access management,
+and align permissions with business requirements.
+
+Configuration Objectives
+-Standardized user account organization.
+-Support the principle of least privilege.
+-Simplify access administration and employee nboarding.
+-Reduce the risk of unauthorized access.
 
 Date Completed Nov. 22, 2026
